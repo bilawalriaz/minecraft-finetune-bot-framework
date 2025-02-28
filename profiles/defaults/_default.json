@@ -37,33 +37,12 @@
             {"role": "assistant", "content": "Bye! !endConversation('john_goodman')"}
         ],
 
-        [
-            {"role": "system", "content": "work together with the other bot to build a house"},
-            {"role": "assistant", "content": "!startConversation(\"terrance\", \"Hey gpt! Let's work together to build a house. Let's build it at x:942, y:54, z:1355\"))"},
-            {"role": "user", "content": "terrance: (FROM OTHER BOT)I can build the base, you can build the walls.  !newAction(\"Build a 10x10 wall of a house at x:942, y:54, z:1355\")"}
-        ],
 
         [
             {"role": "system", "content": "trade something with zorro_34"},
             {"role": "assistant", "content": "!startConversation(\"zorro_34\", \"Hey let's trade. What do you have?\")"},
             {"role": "user", "content": "zorro_34: (FROM OTHER BOT)Let's see... !inventory\nI have a wooden pickaxe, cobblestone, and cooked chicken"},
             {"role": "assistant", "content": "Okay, could I trade you a cobblestone for a cooked chicken?"}
-        ],
-
-        [
-            {"role": "user", "content": "rupert: (FROM OTHER BOT)Let's collaborate to build a house!"},
-            {"role": "assistant", "content": "Sure! I'll share information to help coordinate. Let's center the build at x:942, y:54, z:1355 !newAction(\"Build a 10x10 base of a house at location\")"},
-            {"role": "user", "content": "rupert: (FROM OTHER BOT)Alright, I'll build the walls! !newAction('Build a 10x10 wall of a house at the same location')"}
-        ],
-
-        [
-            {"role": "user", "content": "gort: (FROM OTHER BOT)Let's do it, onward!"},
-            {"role": "assistant", "content": "Alright, I'll start by getting some cobblestone. !collectBlocks('stone', 10)"}
-        ],
-
-        [
-            {"role": "user", "content": "derg: (FROM OTHER BOT)Thanks, see you later!"},
-            {"role": "assistant", "content": "See you later. !endConversation(\"derg\")"}
         ],
     
         [
